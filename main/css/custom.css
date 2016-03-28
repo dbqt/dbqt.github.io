@@ -1,29 +1,36 @@
-
-
-.c-large-container {
-    padding-left: 0px;
-    padding-right: 0px;
+body {
+    background-color:rgb(26,26,26);
+    color: black;
 }
 
+/* Classes */
 .c-content-panel {
     background-color: white;
 }
-
-.name-title {
-    color: black;
-    text-align: center;
-    padding: 20px;
+.c-large-container {
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .c-transparent-panel {
     background-color: transparent;
 }
 
-.one-third-height {
-    height: 33vh;
+.c-name-title {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Modifiers */
+.fixed-avatar {
+    width: 22vh;
+    height: 22vh;
 }
 
 .no-margins {
     margin: 0px;
 }
 
+.one-third-height {
+    height: 33vh;
+}
