@@ -1,0 +1,29 @@
+
+
+.c-large-container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.c-content-panel {
+    background-color: white;
+}
+
+.name-title {
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.c-transparent-panel {
+    background-color: transparent;
+}
+
+.one-third-height {
+    height: 33vh;
+}
+
+.no-margins {
+    margin: 0px;
+}
+
