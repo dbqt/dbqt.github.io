@@ -51,20 +51,39 @@ body {
 
 .grid-sizer,
 .grid-item {
-  width: 25%;
+    width: 50%;
+    min-width: 300px;
+    min-height: 200px
 }
 
 .grid-item {
-  height: 120px;
-  float: left;
-  background: #D26;
-  border: 2px solid #333;
-  border-color: hsla(0, 0%, 0%, 0.5);
-  border-radius: 5px;
+    background: -webkit-linear-gradient(#404040, #202020); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#404040, #202020); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#404040, #202020); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#404040, #202020); /* Standard syntax (must be last) */
+    height: 120px;
+    float: left;
+    border: 1px solid #333;
+    border-color: black;
+    border-radius: 10px;
+    color: white;
 }
 
-.grid-item--width2 { width:  50%; }
-.grid-item--width3 { width:  75%; }
+.grid-item:hover {
+    background: #101010;
+    border-color: #202020;
+    color: white;
+}
+
+.grid-item > div {
+    margin: 10px 10px;
+}
+
+.grid-item--width2 { 
+    width:  100%; 
+    min-width: 300px;
+    min-height: 200px;
+}
 
 .grid-item--height2 { height: 200px; }
 .grid-item--height3 { height: 250px; }
