@@ -1,46 +1,32 @@
 body {
     background-color:rgb(26,26,26);
-    color: black;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
 }
 
-/* Classes */
-.c-content-panel {
-    background-color: white;
-    min-height: 150px;
-}
-.c-large-container {
-    padding-left: 0px;
-    padding-right: 0px;
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
 }
 
-.c-transparent-panel {
-    background-color: transparent;
+.bottom-box {
+    text-align: justify;
 }
 
-.c-midway-img-displayer{
-    position: absolute;
-    text-align: center;
+.container > div {
+    display: inline-block;
+    vertical-align: center;
+
+    /* IE fix. */
+    *display: inline;
+    zoom: 1;
+    }
+
+.container:after {
+    content: "";
     width: 100%;
-    top: 50%;
-}
-
-.c-name-title {
-    text-align: center;
-    padding: 20px;
-}
-
-/* Modifiers */
-.fixed-avatar {
-    width: 33vh;
-    height: 33vh;
-    min-height: 150px;
-    min-width: 150px;
-}
-
-.no-margins {
-    margin: 0px;
-}
-
-.one-third-height {
-    height: 33vh;
-}
+    display: inline-block;
+    }
