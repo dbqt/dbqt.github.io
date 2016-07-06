@@ -15,24 +15,35 @@ Last update: 07-05-2016
         <link href="main/css/normalize.css" rel="stylesheet">
         <!-- Custom CSS -->
         <link href="main/css/custom.css" rel="stylesheet">
-        <link href='https://fonts.googleapis.com/css?family=Titillium+Web:300' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Titillium+Web:300,700' rel='stylesheet' type='text/css'>
     </head>
 
-    <body>
-        <div class="container">
-            <h1 style="font-size: 40px">David Binh Quang Tran</h1>
+    <body id="threedemo" style="overflow: hidden;">
+        <div class="container invisidiv">
+            <h1 style="font-size: 50px">David Binh Quang Tran</h1>
+
         </div>
 
+        <nav class="navbar navbar-fixed-bottom">
+            <div class="container bottom-box">
+                <div><a href="">Home</a></div>
+                <div><a href="main/html/projects.html">Projects</a></div>
+                <div><a href="main/html/contact.html">Contact</a></div>
+            </div>
+        </nav>
+
+        <!-- jQuery -->
+        <script src="main/js/jquery-1.12.2.min.js"></script>
+        <script src="main/js/dat.gui.min.js"></script>
+        <script src="main/js/three.min.js"></script>
+        
+        <script src="main/js/threedemo.js"></script>
         <!-- Bootstrap Core JavaScript -->
         <script src="main/js/bootstrap.min.js"></script>
     </body>
 
-    <footer class="footer">
-      <div class="container bottom-box">
-          <div><a href="">Home</a></div>
-          <div><a href="main/html/projects.html">Projects</a></div>
-          <div><a href="main/html/contact.html">Contact</a></div>
-      </div>
+    <footer class="footer" style="position: absolute">
+      
     </footer>
 
 </html>
