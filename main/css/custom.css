@@ -68,12 +68,12 @@ body {
     border-radius: 10px;
     color: white;
 }
-
+/*
 .grid-item:hover {
     background: #101010;
     border-color: #202020;
     color: white;
-}
+}*/
 
 .grid-item > div {
     margin: 10px 10px;
@@ -82,10 +82,9 @@ body {
 .grid-item--width2 { 
     width:  100%; 
     min-width: 300px;
-    min-height: 200px;
 }
 
-.grid-item--height2 { height: 200px; }
+.grid-item--height2 { height: 200px; min-height: 200px; }
 .grid-item--height3 { height: 250px; }
 .grid-item--height4 { height: 300px; }
 
